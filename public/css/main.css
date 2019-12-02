@@ -1,0 +1,169 @@
+body{
+
+}
+.header{
+    position: absolute;
+    top: 0;
+    height: 60px;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid grey;
+    background:ghostwhite;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Параметры тени */
+    transform: translate(0px, 0px);
+}
+
+.sidebar{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    border-right: 1px solid grey;
+    text-align: center;
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.5); /* Параметры тени */
+    transform: translate(0px, 0px);
+
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: -1px 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+    transform: translate(0px, 0px);
+
+}
+.brand{/*Название сайта*/
+    position: absolute;
+    border: 0 solid;
+    left: 30px;
+    top: 30%;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#search{
+    position: absolute;
+    border: 0.5px solid grey;
+    left: 350px;
+    top: 20%;
+    height: 30px;
+    width: 800px;
+    border-radius:8px;
+    text-align: center;
+    outline:none;/*убрать рамку во круг поля*/
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Параметры тени */
+
+}
+#btnSearch{
+    position: absolute;
+    left: 1180px;
+    top: 23%;
+    height: 25px;
+    width:70px;
+    border: 0 solid ;
+    border-radius:8px;
+    outline:none;/*убрать рамку во круг поля*/
+    background-color: #e6e5e5;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Параметры тени */
+
+}
+#login{
+    position: absolute;
+    right: 10px;
+    top:1px;
+    border: 0 solid;
+
+    width: 100px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
+}
+#logout{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    border: 0 solid grey;
+
+    width: 100px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#k{
+    position: absolute;
+    right: 10px;
+    top:30px;
+    border: 0 solid grey;
+
+    width: 100px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#sidebarLink1{
+    position: relative;
+    top:30px;
+    left: 5px;
+    width: 200px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
+}
+#sidebarLink2{
+    position: relative;
+    top:40px;
+    left: 5px;
+    width: 190px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
+}
+#sidebarLink3{
+    position: relative;
+    top:50px;
+    left: 5px;
+    width: 190px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#sidebarLink4{
+    position: relative;
+    top:60px;
+    left: 5px;
+    width: 190px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#sidebarLink5{
+    position: relative;
+    top:70px;
+    left: 5px;
+    width: 190px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#sidebarLink6{
+    position: relative;
+    top:80px;
+    left: 5px;
+    width: 190px;
+    padding: 8px;
+    border-bottom: 0.8px solid #e6e5e5;
+    font-family: cursive;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
